@@ -5,7 +5,6 @@ window.addEvent('load', function() {
  
   // Or assign ReMooz "by hand"
   $$('.remooz').each(function(element) {
-    alert(element)
    // Constructor, takes the element and options as arguments
    new ReMooz(element, {
      centered: true, // Zoom the center of the screen
